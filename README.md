@@ -156,27 +156,3 @@ The following Colab Secrets must be created in Google Colab (via the **Key** ico
 
 ---
 
-### 🧪 Automated Test Suite Results (77 Passed)
-
-```text
-============================= test session starts =============================
-platform win32 -- Python 3.10.9, pytest-9.1.1, pluggy-1.7.0
-rootdir: D:\infosys-franchise-ai\Milestone1
-plugins: anyio-4.14.1
-collected 77 items
-
-test_auth.py::TestLivePasswordCriteriaHelper (8 tests) ............... PASSED [ 10%]
-test_auth.py::TestPasswordValidation (13 tests) ...................... PASSED [ 27%]
-test_auth.py::TestUsernameAndEmailValidation (18 tests) .............. PASSED [ 50%]
-test_auth.py::TestSignupFlow (5 tests) ............................... PASSED [ 57%]
-test_auth.py::TestAuthenticationAndLockout (4 tests) ................. PASSED [ 62%]
-test_auth.py::TestEmailVerificationAndUnverifiedLogin (8 tests) ...... PASSED [ 72%]
-test_auth.py::TestSecureOtpGeneration (3 tests) ...................... PASSED [ 76%]
-test_auth.py::TestSecurityQuestionRecovery (4 tests) ................. PASSED [ 81%]
-test_auth.py::TestOtpPasswordRecovery (5 tests) ...................... PASSED [ 88%]
-test_auth.py::TestAdminAuthentication (4 tests) ...................... PASSED [ 93%]
-test_auth.py::TestJwtSessions (4 tests) .............................. PASSED [ 98%]
-test_auth.py::TestColabSecretsSafety (1 test) ........................ PASSED [100%]
-
-============================= 77 passed in 40.17s =============================
-```
