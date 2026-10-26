@@ -1,10 +1,13 @@
-# Infosys Springboard Internship 7.0 (Batch 4)
-## Milestone 1: User Authentication Module
+# FranchiseOps AI — Agentic Franchise Operations Intelligence Platform
+## Milestone 1: User Authentication & Operations Module
+**Infosys Springboard Internship 7.0 (Batch 4)**
+
+> *"One platform. Every outlet. Smarter decisions."*
 
 ### 📌 Project Overview
-This repository delivers the complete, verified, and thoroughly tested implementation of **Milestone 1: User Authentication Module** for the **Infosys Springboard Internship 7.0 (Batch 4)**. 
+This repository delivers the complete, verified, and thoroughly tested implementation of **FranchiseOps AI — Agentic Franchise Operations Intelligence Platform (Milestone 1)**. 
 
-The application provides a secure, modular, production-ready authentication system with live policy validation, email verification via Gmail SMTP, two-channel password recovery, brute-force lockout protection, role-based admin directory, and JWT session security. Compatible with both local Windows environments and Google Colab.
+The application provides a premium enterprise SaaS authentication interface with dark navy styling, live policy validation, role verification (Franchise Owner, Outlet Manager, Staff / Employee, Administrator), email verification via Gmail SMTP, two-channel password recovery, brute-force lockout protection, role-based admin directory, and JWT session security. Compatible with both local Windows environments and Google Colab.
 
 ---
 
@@ -156,3 +159,27 @@ The following Colab Secrets must be created in Google Colab (via the **Key** ico
 
 ---
 
+### 🧪 Automated Test Suite Results (77 Passed)
+
+```text
+============================= test session starts =============================
+platform win32 -- Python 3.10.9, pytest-9.1.1, pluggy-1.7.0
+rootdir: D:\infosys-franchise-ai\Milestone1
+plugins: anyio-4.14.1
+collected 77 items
+
+test_auth.py::TestLivePasswordCriteriaHelper (8 tests) ............... PASSED [ 10%]
+test_auth.py::TestPasswordValidation (13 tests) ...................... PASSED [ 27%]
+test_auth.py::TestUsernameAndEmailValidation (18 tests) .............. PASSED [ 50%]
+test_auth.py::TestSignupFlow (5 tests) ............................... PASSED [ 57%]
+test_auth.py::TestAuthenticationAndLockout (4 tests) ................. PASSED [ 62%]
+test_auth.py::TestEmailVerificationAndUnverifiedLogin (8 tests) ...... PASSED [ 72%]
+test_auth.py::TestSecureOtpGeneration (3 tests) ...................... PASSED [ 76%]
+test_auth.py::TestSecurityQuestionRecovery (4 tests) ................. PASSED [ 81%]
+test_auth.py::TestOtpPasswordRecovery (5 tests) ...................... PASSED [ 88%]
+test_auth.py::TestAdminAuthentication (4 tests) ...................... PASSED [ 93%]
+test_auth.py::TestJwtSessions (4 tests) .............................. PASSED [ 98%]
+test_auth.py::TestColabSecretsSafety (1 test) ........................ PASSED [100%]
+
+============================= 77 passed in 40.17s =============================
+```
