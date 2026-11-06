@@ -503,7 +503,7 @@ Use the exact variable names expected by the submitted notebook.
 Open:
 
 ```text
-Milestone2_FranchiseOps_FastAPI.ipynb
+FranchiseOps_Milestone2.ipynb
 ```
 
 in Google Colab.
